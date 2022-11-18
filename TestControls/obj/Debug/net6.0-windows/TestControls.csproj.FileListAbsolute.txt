@@ -19,3 +19,4 @@ D:\ServerGithub\Test\TestControls\TestControls\obj\Debug\net6.0-windows\refint\T
 D:\ServerGithub\Test\TestControls\TestControls\obj\Debug\net6.0-windows\TestControls.pdb
 D:\ServerGithub\Test\TestControls\TestControls\obj\Debug\net6.0-windows\TestControls.genruntimeconfig.cache
 D:\ServerGithub\Test\TestControls\TestControls\obj\Debug\net6.0-windows\ref\TestControls.dll
+D:\ServerGithub\Test\TestControls\TestControls\obj\Debug\net6.0-windows\App.baml

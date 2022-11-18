@@ -21,23 +21,23 @@
         <Label>
             Enter your first name:
         </Label>
-        <TextBox Grid.Row="0"
+        <!--<TextBox Grid.Row="0"
                  Grid.Column="1"
                  Name="firstName"
-                 Margin="0,5,10,5" />
+                 Margin="0,5,10,5" />-->
         <Label Grid.Row="1">
             Enter your last name:
         </Label>
-        <TextBox Grid.Row="1"
+        <!--<TextBox Grid.Row="1"
                  Grid.Column="1"
                  Name="lastName"
-                 Margin="0,5,10,5" />
-        <Button Grid.Row="2"
+                 Margin="0,5,10,5" />-->
+        <!--<Button Grid.Row="2"
                 Grid.Column="0"
                 Name="submit"
                 Margin="0">
             View message
-        </Button>
+        </Button>-->
         <Button Grid.Row="2"
                 Grid.Column="1"
                 Name="Clear"
