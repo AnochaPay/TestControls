@@ -44,5 +44,22 @@
                 Margin="2">
             Clear Name
         </Button>-->
+
+        <!--<Button FontSize="14"
+                FontWeight="Bold">
+            --><!--Set the Background property of the Button to
+    a LinearGradientBrush.--><!--
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0.5"
+                                     EndPoint="1,0.5">
+                    <GradientStop Color="Green"
+                                  Offset="0.0" />
+                    <GradientStop Color="White"
+                                  Offset="0.9" />
+                </LinearGradientBrush>
+
+            </Button.Background>
+            View message
+        </Button>-->
     </Grid>
 </Window>

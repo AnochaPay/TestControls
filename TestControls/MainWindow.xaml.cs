@@ -21,6 +21,7 @@ namespace TestControls {
         public MainWindow() {
             InitializeComponent();
             CreateControls();
+            CreateBackgroundSubmit();
         }
 
         Label firstNameLabel;
@@ -61,6 +62,20 @@ namespace TestControls {
             Grid.SetRow(clear, 2);
             Grid.SetColumn(clear, 1);
             grid1.Children.Add(clear);
+        }
+        /// <summary>
+        /// For test create button submit
+        /// </summary>
+        private void CreateBackgroundSubmit() {
+            LinearGradientBrush buttonBrush = new LinearGradientBrush();
+            buttonBrush.StartPoint = new Point(0, 0.5);
+            buttonBrush.EndPoint = new Point(1, 0.5);
+            buttonBrush.GradientStops.Add(new GradientStop(Colors.Green, 0));
+            buttonBrush.GradientStops.Add(new GradientStop(Colors.White, 0.9));
+
+            submit.Background = buttonBrush;
+            submit.FontSize = 14;
+            submit.FontWeight = FontWeights.Bold;
         }
     }
 }
