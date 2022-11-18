@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anocha\\Desktop\\TestControls\\TestControls\\TestControls.csproj": {}
+    "D:\\ServerGithub\\Test\\TestControls\\TestControls\\TestControls.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anocha\\Desktop\\TestControls\\TestControls\\TestControls.csproj": {
+    "D:\\ServerGithub\\Test\\TestControls\\TestControls\\TestControls.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anocha\\Desktop\\TestControls\\TestControls\\TestControls.csproj",
+        "projectUniqueName": "D:\\ServerGithub\\Test\\TestControls\\TestControls\\TestControls.csproj",
         "projectName": "TestControls",
-        "projectPath": "C:\\Users\\anocha\\Desktop\\TestControls\\TestControls\\TestControls.csproj",
+        "projectPath": "D:\\ServerGithub\\Test\\TestControls\\TestControls\\TestControls.csproj",
         "packagesPath": "C:\\Users\\anocha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anocha\\Desktop\\TestControls\\TestControls\\obj\\",
+        "outputPath": "D:\\ServerGithub\\Test\\TestControls\\TestControls\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anocha\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -20,6 +20,47 @@ namespace TestControls {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
+            CreateControls();
+        }
+
+        Label firstNameLabel;
+        Label lastNameLabel;
+        TextBox firstName;
+        TextBox lastName;
+        Button submit;
+        Button clear;
+
+        void CreateControls() {
+            firstNameLabel = new Label();
+            firstNameLabel.Content = "Enter your first name:";
+            grid1.Children.Add(firstNameLabel);
+
+            firstName = new TextBox();
+            firstName.Margin = new Thickness(0, 5, 10, 5);
+            Grid.SetColumn(firstName, 1);
+            grid1.Children.Add(firstName);
+
+            lastNameLabel = new Label();
+            lastNameLabel.Content = "Enter your last name:";
+            Grid.SetRow(lastNameLabel, 1);
+            grid1.Children.Add(lastNameLabel);
+
+            lastName = new TextBox();
+            lastName.Margin = new Thickness(0, 5, 10, 5);
+            Grid.SetColumn(lastName, 1);
+            Grid.SetRow(lastName, 1);
+            grid1.Children.Add(lastName);
+
+            submit = new Button();
+            submit.Content = "View message";
+            Grid.SetRow(submit, 2);
+            grid1.Children.Add(submit);
+
+            clear = new Button();
+            clear.Content = "Clear Name";
+            Grid.SetRow(clear, 2);
+            Grid.SetColumn(clear, 1);
+            grid1.Children.Add(clear);
         }
     }
 }
