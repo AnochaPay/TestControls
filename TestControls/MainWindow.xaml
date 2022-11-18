@@ -18,7 +18,7 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <!--<Label>
+        <Label>
             Enter your first name:
         </Label>
         <TextBox Grid.Row="0"
@@ -43,7 +43,7 @@
                 Name="Clear"
                 Margin="2">
             Clear Name
-        </Button>-->
+        </Button>
 
         <!--<Button FontSize="14"
                 FontWeight="Bold">

@@ -20,8 +20,8 @@ namespace TestControls {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
-            CreateControls();
-            CreateBackgroundSubmit();
+            //CreateControls();
+            //CreateBackgroundSubmit();
         }
 
         Label firstNameLabel;
